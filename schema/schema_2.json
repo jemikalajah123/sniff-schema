@@ -1,0 +1,80 @@
+{
+    "user.id": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "user.nickname": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "user.title": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "user.accountType": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "user.countryCode": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "user.orientation": {
+        "type": "string",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "time": {
+        "type": "integer",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "acl": {
+        "type": "enum",
+        "tag": "",
+        "description": "",
+        "required": false,
+        "enum": []
+    },
+    "publicFeed": {
+        "type": "boolean",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    "internationalCountries": {
+        "type": "enum",
+        "tag": "",
+        "description": "",
+        "required": false,
+        "enum": [
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+            "ABCDEFGHIJKLMNOPQ",
+            "ABCDEFGHIJKLMNOPQRSTUVW",
+            "ABCDEFGHIJKLMNOPQRSTUVWXY",
+            "ABCDEFGHIJK",
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "ABCDEFGHIJKLMNOPQR",
+            "ABCDEFG",
+            "ABCDEFGHIJKLM"
+        ]
+    },
+    "topTraderFeed": {
+        "type": "boolean",
+        "tag": "",
+        "description": "",
+        "required": false
+    }
+}
